@@ -1,0 +1,4 @@
+name: FuckMyWhitelist
+version: ${project.version}
+main: dev.mja00.fuckthewhitelist.FuckTheWhitelist
+api-version: 1.13
