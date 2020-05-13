@@ -49,7 +49,7 @@ public final class FuckTheWhitelist extends JavaPlugin {
             String name = player.getName();
             players.put("uuid", mcuuid);
             players.put("name", name);
-            getLogger().info(players.toString());
+            //getLogger().info(players.toString());
             whitelist.add(players.toJSONString());
             players.clear();
         }
